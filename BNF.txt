@@ -1,0 +1,13 @@
+S ::= A{[K]A}
+
+K ::= + | *[+]
+
+A ::= a | # | \ | (S)
+
+
+
+a = Alfabeto en minusculas
+
+# = digitos {0,1,...,9}
+
+\ = lambda
